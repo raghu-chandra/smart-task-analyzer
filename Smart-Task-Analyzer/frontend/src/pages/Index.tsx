@@ -71,7 +71,7 @@ const Index = () => {
     };
     try {
       const response = await fetch(
-        `https://smart-task-analyzer-odff.onrender.com/api/tasks/analyze/?strategy=${strategyMap[strategy]}`,
+        `https://smart-task-analyzer-y2io.onrender.com/api/tasks/analyze/?strategy=${strategyMap[strategy]}`,
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
